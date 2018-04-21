@@ -1,0 +1,22 @@
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  background-image: url('https://www.dl.dropboxusercontent.com/s/i1x809udcl2d7z1/1500x500.jpg');
+  background-size: cover;
+  opacity: 0.95;
+  filter: grayscale(85%);
+}
+
+.disclaimer {
+  display: block;
+  margin-top: 10px;
+}
+.footer {
+  margin-top: 50px;
+}
