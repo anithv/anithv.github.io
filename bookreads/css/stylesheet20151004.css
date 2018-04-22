@@ -1,0 +1,75 @@
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: -5px;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+h5 {
+	font-size: 18px;
+	margin-top: -2px;
+	margin-bottom: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+blockquote {
+	font-size: 15px;
+}
+
+.book-list {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-family: Georgia, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.tab, .details {
+	text-align: justify;
+}
+
+.details-small {
+	font-size: 12px;
+}
+
+.details {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* Form validation */
+.ng-invalid.ng-dirty{
+	border-color: red;
+}
+
+.ng-valid.ng-dirty{
+	border-color: green;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="bookReads">
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<title>Book List</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/stylesheet20151004.css" />
+
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/bookdirectives.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body ng-controller="ReadController as booksrd">
+	<!-- Book List Header -->
+	<header>
+		<h1 class="text-center">My Reads</h1>
+		<h2 class="text-center">– books I've read –</h2>
+	</header>
+
+	<!-- Book List Container -->
+	<div class="list-group"> <!-- Iterate through the reads property in the app -->
+		<!-- Book Container -->
+		<div class="book-list list-group-item" ng-repeat="book in booksrd.reads">
+			<!-- Book Name -->
+			<h3>{{book.name}}</h3>
+			<!-- Book Author -->
+			<h5 class="clearfix">by {{book.author}}</h5>
+
+			<!-- Image Gallery -->
+			<book-gallery></book-gallery>
+
+			<!-- Sections for tabbing (pills in bootstrap) -->
+			<book-tabs></book-tabs>
+		</div>
+	</div>
+</body>
+</html>

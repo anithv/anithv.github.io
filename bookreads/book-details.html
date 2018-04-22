@@ -1,0 +1,20 @@
+<div>
+	<h4>Details</h4>
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="detail in book.details">
+			<div class="clearfix details-small">
+				{{detail.type}}, {{detail.numPages}}
+			</div>
+			<div class="clearfix details-small">
+				Published {{detail.publishDate}}
+			</div>
+			<div style="margin-top: 5px;"></div> <!-- Placeholder spacer. Yeah, this is bad I know, will fix when I'm not tired. -->
+			<div class="clearfix">
+				<strong>original title: </strong> {{detail.originalTitle}}
+			</div>
+			<div class="clearfix">
+				<strong>edition language: </strong> {{detail.editionLanguage}}
+			</div>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,23 @@
+<section class="tab">
+	<ul class="nav nav-pills">
+		<li ng-class="{active: tabs.isSet(1)}">
+			<a href ng-click="tabs.selectTab(1)">Synopsis</a>
+		</li>
+		<li ng-class="{active: tabs.isSet(2)}">
+			<a href ng-click="tabs.selectTab(2)">Details</a>
+		</li>
+		<li ng-class="{active: tabs.isSet(3)}">
+			<a href ng-click="tabs.selectTab(3)">Reviews</a>
+		</li>
+	</ul>
+
+		<!-- Book Synopsis Tab Content (The one usually found at the back of a book) -->
+		<book-description ng-show="tabs.isSet(1)"></book-description> <!-- Element Directive -->
+
+		<!-- Book Details Tab Content -->
+		<div book-details class="details" ng-show="tabs.isSet(2)"> <!-- Attribute Directive -->
+		</div>
+
+		<!-- Book Reviews Tab Content-->
+		<book-reviews ng-show="tabs.isSet(3)"></book-reviews>
+</section>

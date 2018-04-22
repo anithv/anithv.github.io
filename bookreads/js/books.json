@@ -1,0 +1,95 @@
+[
+    {
+        "name": "The Guest Cat",
+        "author": "Takashi Hiraide",
+        "description": "A wonderful sui generis novel about a visiting cat who brings joy into a couple's life in Tokyo.",
+        "images": [
+            "images/the-guest-cat.jpg",
+            "images/the-guest-cat-alt.jpg"
+        ],
+        "details": [{
+                "type": "Paperback",
+                "numPages": "140 pages",
+                "originalTitle": "猫の客",
+                "publishDate": "January 28th 2014, by New Directions Publishing Corporation (first published 2001)",
+                "editionLanguage": "English"
+        }],
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "Terrific Book!",
+                "author": "john@example.org",
+                "createdOn": 1392178496000
+            },
+            {
+                "stars": 2,
+                "body": "This book sucks.",
+                "author": "timisahater@example.org",
+                "createdOn": 1428917216000
+            }
+        ]
+    },
+    {
+        "name": "The Colour of Magic (Discworld #1)",
+        "author": "Terry Pratchett",
+        "description": "On a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naïve tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
+        "images": [
+            "images/the-colour-of-magic.jpg"
+        ],
+        "details": [
+            {
+                "type": "Mass Market Paperback",
+                "numPages": "285 pages",
+                "originalTitle": "The Colour of Magic",
+                "publishDate": "January 18th 1985, by Corgi (first published 1983)",
+                "editionLanguage": "English"
+            }
+        ],
+        "reviews": [
+            {
+                "stars": 3,
+                "body": "The comedy is fairly weak compared to the other Discworld books. Great read nonetheless.",
+                "author": "pratchettfan@example.org",
+                "createdOn": 1392178496000
+            },
+            {
+                "stars": 4,
+                "body": "Ah, Mr. Pratchett's first Discworld book. GREAT humour, highly recommended!",
+                "author": "discworldrocks@example.org",
+                "createdOn": 1392792902000
+            }
+        ]
+    },
+    {
+        "name": "The Hunger Games Trilogy Boxset (The Hunger Games #1-3)",
+        "author": "Suzanne Collins",
+        "description": "The extraordinary, ground breaking New York Times bestsellers The Hunger Games and Catching Fire, along with the third book in The Hunger Games trilogy by Suzanne Collins, Mockingjay, are available for the first time ever in a beautiful boxset edition. Stunning, gripping, and powerful. The trilogy is now complete!",
+        "images": [
+            "images/the-hunger-games-trilogy.jpg",
+            "images/the-hunger-games-trilogy-alt.jpg"
+        ],
+        "details": [
+            {
+                "type": "Hardcover",
+                "numPages": "1155 pages",
+                "originalTitle": "The Hunger Games #1-3",
+                "publishDate": "August 24th 2010, by Scholastic Press (first published January 1st 2010)",
+                "editionLanguage": "English"
+            }
+        ],
+        "reviews": [
+            {
+                "stars": 4,
+                "body": "Great series of YA novels! If you're interested in more stuff like this, check out the novel \"Battle Royale\" by Koushun Takami.",
+                "author": "june.lee@example.org",
+                "createdOn": 1392178496000
+            },
+            {
+                "stars": 2,
+                "body": "I've read the series and I found myself hating it. Mockingjay specifically... eugh. ",
+                "author": "jamesthebooksnob@example.org",
+                "createdOn": 1392188573000
+            }
+        ]
+    }
+]
