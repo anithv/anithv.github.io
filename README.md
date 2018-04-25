@@ -2,6 +2,6 @@
 
 To-do:
 
-- Change index.html
+- Update index.html
 - Add folio links over from the DailyUI challenge
-- Add front-end projects
+- Add more (updated) front-end projects
