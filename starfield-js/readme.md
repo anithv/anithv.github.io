@@ -1,6 +1,6 @@
 # Starfield!
 
-Decided to try my hand in 2D JS animations.
+Decided to try my hand in 2D JS animation.
 
 ## To do
 This project is far from over. There are a couple more ideas I could implement. In the future perhaps:
